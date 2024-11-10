@@ -5,6 +5,7 @@
     "@rollup/plugin-commonjs": "28.0.1",
     "@rollup/plugin-node-resolve": "15.3.0",
     "esbuild": "0.24.0",
+    "rolldown": "^0.14.0",
     "rollup": "4.25.0",
     "webpack": "5.96.1"
   },

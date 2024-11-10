@@ -283,6 +283,7 @@ const webpack = require('webpack')
 const esbuild = require('esbuild')
 const parcel = require('@parcel/core')
 const rollup = require('rollup')
+const rolldown = require('rolldown')
 const child_process = require('child_process')
 const pluginNodeResolve = require('@rollup/plugin-node-resolve')
 const pluginCommonJS = require('@rollup/plugin-commonjs')
@@ -326,6 +327,29 @@ const bundlers = {
         outfile,
         logLevel: 'silent',
       })
+      const input = {}
+      new Function('input', fs.readFileSync(outfile, 'utf8'))(input)
+      if (!await input.works) throw new Error('Test did not pass')
+    } catch (e) {
+      if (e && e.errors && e.errors[0]) e = new Error(e.errors[0].text)
+      err = e
+    }
+    return err
+  },
+  async rolldown({ entryFile, inDir, outDir }) {
+    let err
+    try {
+      const outfile = path.join(outDir, entryFile)
+      const build = await rolldown.rolldown({
+        input: path.join(inDir, entryFile),
+      });
+      await build.write({
+        file: outfile,
+        format: 'iife',
+        name: 'name',
+        inlineDynamicImports: true,
+      })
+     
       const input = {}
       new Function('input', fs.readFileSync(outfile, 'utf8'))(input)
       if (!await input.works) throw new Error('Test did not pass')
