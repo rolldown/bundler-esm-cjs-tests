@@ -21,9 +21,9 @@ export async function load(url, _context, _defaultLoad) {
   globalThis.require = createRequire(url);
   const source = readFileSync(fileURLToPath(url)).toString();
   if (cjsModuleRegEx.test(source)) {
-    return { format: 'commonjs', source };
+    return { format: 'commonjs', source, shortCircuit: true };
   }
   else {
-    return { format: 'module', source };
+    return { format: 'module', source, shortCircuit: true };
   }
 }
