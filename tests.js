@@ -292,6 +292,8 @@ const bundlers = {
   async webpack({ entryFile, inDir, outDir }) {
     let err = await new Promise(resolve => webpack({
       entry: path.join(inDir, entryFile),
+      mode: 'development',
+      devtool: false,
       output: {
         path: outDir,
         filename: entryFile,

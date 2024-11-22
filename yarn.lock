@@ -936,67 +936,67 @@
     "@parcel/utils" "2.12.0"
     nullthrows "^1.1.1"
 
-"@rolldown/binding-darwin-arm64@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-0.14.0.tgz#1e0c3857eabfcccb179de1b7535d93184f040046"
-  integrity sha512-0GneNB1lW+k6VyBeKZAAyjoJ27r+gCDV+xI56aifQteaHAhFb0q8etJE5KpOOt65Hz0xXVjENilDKS+ibn1lcA==
+"@rolldown/binding-darwin-arm64@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-0.14.0-snapshot-bf06e41-20241122003530.tgz#034ff5d14d7416cf932b075c17952440a07e402a"
+  integrity sha512-di89HC0XXrZg/d1clEAJCDsu80th/YcESqo7/u5o2eqZLxGAW49GR4r7jl4Xfnu+LBPZzizoJMVvzTa1ek+rkQ==
 
-"@rolldown/binding-darwin-x64@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-x64/-/binding-darwin-x64-0.14.0.tgz#9006e66fd0f470d11012f39f917dd7bc8feab450"
-  integrity sha512-MG+pbDhufD2Fkua7J32XAkK6OoHzS/P1KFwDv+J7YvD6KZ/vEz8GklXtM4Woby+rbvbNmgoT4MV1BtHENONr3A==
+"@rolldown/binding-darwin-x64@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-x64/-/binding-darwin-x64-0.14.0-snapshot-bf06e41-20241122003530.tgz#bb20c10a4fe97f486bf64301abd246c007ea493a"
+  integrity sha512-LsqJgQop5jXP5wMAMJS2+jK/biaKyTAqpKGqw9kdaz3wdLd5XQD6p7eSvRcIch0RvAu8DB0FwLb8AJVZRoJ2sQ==
 
-"@rolldown/binding-freebsd-x64@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-0.14.0.tgz#9de519c5a6121c9ec382c038f272a01dc139bbf3"
-  integrity sha512-ojbJdM8f6+099WfFL/ggQ0F5o2/lHypQBj7WgIPL2Iqr3KleRVN57YTZPu0SJ/bK0OWrx2ZaWBLb6WpDsIx2zg==
+"@rolldown/binding-freebsd-x64@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-0.14.0-snapshot-bf06e41-20241122003530.tgz#8de041eb16a9b7747bc08b188eb9d1ab69f44066"
+  integrity sha512-YaV4+zQbN9ICqj+a+ieE+IGIlVUHLAlARIoovJCVTOn7WAQXXNORbzZvGwbCWoZrcISSKrFnGSJgcqmOO7Pfhw==
 
-"@rolldown/binding-linux-arm-gnueabihf@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-0.14.0.tgz#3804e8bda16608fb8e2143b3b398e40f829b1215"
-  integrity sha512-cI8UBQDS6xFWg6Pe5gPXZYXskt2BQ4nVEoGGaHZsav8PWC31cEZhSkUj814anbmGoi7wl23/T2gNuCNysdWHxg==
+"@rolldown/binding-linux-arm-gnueabihf@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-0.14.0-snapshot-bf06e41-20241122003530.tgz#02eac89e579c9d0a424dd1cb3e22c64c57b7aa12"
+  integrity sha512-C1FsgJaPLGuH2kVHSDORkIXSNbTN1YpQzSGmaT+51n+D0vbiBCWybTS8pcFYjd9jdziBQuvHTJxSLjAJbY/Zdw==
 
-"@rolldown/binding-linux-arm64-gnu@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.14.0.tgz#14581c9d153f1b3dca0f825cdda41b7f46c18243"
-  integrity sha512-vA2ewz6nun7mkW4lMwO3TzCuUi3mpcAo3xXhAwmIPT6yz7+ofJGLkq3N7oYfJQhH9ktHSEPA8JzPHvZ1ozAfgA==
+"@rolldown/binding-linux-arm64-gnu@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.14.0-snapshot-bf06e41-20241122003530.tgz#85fb8d84e96041b1d84d45c4fc990d87c9d2ff34"
+  integrity sha512-yMFA3XqcTG+GKZ5Jp67XFeKpQPNxy/dFbsehlZgPsMcg2LFbxnHG5pdAGQnHv2lxBbo6rOKdMUcja0qPnfrZhw==
 
-"@rolldown/binding-linux-arm64-musl@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.14.0.tgz#d87a2661a95a2381affc58db454f8c778152ec2d"
-  integrity sha512-uEoG+tzi0JqCVhuWmaOLR7hjuyDQ+a9OudYDeArkeAD2tY8fNyd9gAOfjzyYhgBcYvOLCo+4w2C3GnoSKy88FA==
+"@rolldown/binding-linux-arm64-musl@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.14.0-snapshot-bf06e41-20241122003530.tgz#64c339265268692cf7bfd7f2c876f1b5ee19d4a9"
+  integrity sha512-tIryqPTkLiLRTJCDT+qBmfDqMzl7bKw913+DTaC36KCs+xuDWFBL80CE7Q3QK9L+H26GMYBbjBc1vlPpli3f/g==
 
-"@rolldown/binding-linux-x64-gnu@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.14.0.tgz#f5cb6b348aba6792dc83c996cee5e69fee8d0729"
-  integrity sha512-WSeo4JfiXCTRJDT5VG5Ohp3nhZittMrRA42wZjcHRajsuG7YsikmkSbTI88TXVjMSdXJBQK1zsBVOIpYfzKltQ==
+"@rolldown/binding-linux-x64-gnu@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.14.0-snapshot-bf06e41-20241122003530.tgz#c7737afdea13d30abce3d5aa0b3c0ba3c8588dc9"
+  integrity sha512-ccVP14yRR5LDozloavZCAwEae6d1tnoPsdz3oSNYia9jBKZ02nO+e/lzluA1ZFqO44vndNvJuKU4YAWQMWLnUg==
 
-"@rolldown/binding-linux-x64-musl@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-0.14.0.tgz#68d54e36e31634fdacd77f85ae40850652869036"
-  integrity sha512-gR9Xz+k2E5Xjd/6d+109Jpdwtaepa4Y0UvAA1hwMBM7LsDR0tMpryRYJlrKqaFvhFyzMfd45HunrX4dttQV5hQ==
+"@rolldown/binding-linux-x64-musl@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-0.14.0-snapshot-bf06e41-20241122003530.tgz#5d1d9caafb3a87d71c3575ed64c7452819500333"
+  integrity sha512-fHQBsVBy21nEhzz0/Fc5TBVEoeO0YahnEfobBAthvNH1X8K33hRTbGkI1iNXvMoaCgIEaek65SmXUKWSL4+Brg==
 
-"@rolldown/binding-wasm32-wasi@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-wasm32-wasi/-/binding-wasm32-wasi-0.14.0.tgz#176472a1ecddede5f6d5307f4954d5e2b527946c"
-  integrity sha512-5tEWnRnWlxgn45Z/LGL0Ds/gZ/B8dY84PfKNq6S1elweLGgjlhDSRbNaZiX/umvELa9e1dbYNPCFZiEhHSUvkQ==
+"@rolldown/binding-wasm32-wasi@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-wasm32-wasi/-/binding-wasm32-wasi-0.14.0-snapshot-bf06e41-20241122003530.tgz#ff5dee2a4d50e284e554c000d6cdf938002425ab"
+  integrity sha512-6q3N53dA8RlOCPZiDdGZ6tezJBJYYysOEvemu0aKhCzlcvNi2tSnDbduuk0fhu7v5yqkoPjN2G1ethOUn7/SDQ==
   dependencies:
     "@napi-rs/wasm-runtime" "^0.2.4"
 
-"@rolldown/binding-win32-arm64-msvc@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.14.0.tgz#f9547f14f89289dd84a50192845ca07722b004fa"
-  integrity sha512-VIdWQkE0vvaORRy0NXW+z+IuqTZ96/FbVKVFKlsOMcrhBOibzvy8LobKaxUIOPJ/WzPEyrmhnMRHJpWbtaPJmw==
+"@rolldown/binding-win32-arm64-msvc@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.14.0-snapshot-bf06e41-20241122003530.tgz#a8571f6881ae91a93545b167db8429782add132f"
+  integrity sha512-ShleGkkYH4Xx1B/+YGkrLyraxzbXrmX/LhoyFkan90RTKpJLI1HEPXb5ZdNu2oi3Cqx+Ver0xC/47/zGCLjl8A==
 
-"@rolldown/binding-win32-ia32-msvc@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.14.0.tgz#f0e4a2d0cae651b348525cd5bb167f28bccd6ee9"
-  integrity sha512-0nOHZhjcX93FiY6SLk0iMTqFf3wzRXYsneGstfIlkob8tEncukMdS+iv9JfG9k15e5fRYcwfHu8wW55qmLYj/w==
+"@rolldown/binding-win32-ia32-msvc@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.14.0-snapshot-bf06e41-20241122003530.tgz#4cd59612bd1dc5ee0ec24da8a7a57b683746969b"
+  integrity sha512-+VMaso+DoCBaLRzFbgGJSUJhqDXIxjXs+b4g/zQCEnvoi7eIGNjhKn6Ybi31irme+MEs128cdSpRsAJSG0wBUg==
 
-"@rolldown/binding-win32-x64-msvc@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.14.0.tgz#a4e34935e98312a6970fe31f7432ffb365e46b4e"
-  integrity sha512-RKNpJKIG5J6dgR/0IpxHmZkYYnHJE8vDm3qL8Zq9EY7kxOsCNZbrj5leU7qbibqfHHR+9Ij4vhTL1YuLz/ch5Q==
+"@rolldown/binding-win32-x64-msvc@0.14.0-snapshot-bf06e41-20241122003530":
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.14.0-snapshot-bf06e41-20241122003530.tgz#6e27ac1cf4c542ee4d130d0c6430037672e52f11"
+  integrity sha512-bCvM/wKeLShhDgHjJ3TF2daMSnyHHK3vcLoy/nsodMrkxkLdhanC8U1pRbLfhyjSjgiGl8OpZ46vQK/duItsnw==
 
 "@rollup/plugin-commonjs@28.0.1":
   version "28.0.1"
@@ -2209,25 +2209,25 @@ resolve@^1.22.1:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
-rolldown@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/rolldown/-/rolldown-0.14.0.tgz#32d65f02c136c0b3af2d96ab1d6857c13f8f0358"
-  integrity sha512-9mb66Rwe3iGFBxFGQLahhoPzL2655VyObBParkFZ8EoH4rAYF67D4oKEqQKri5Fl8pAgtgLBt1wDCS54cBgmnw==
+rolldown@0.14.0-snapshot-bf06e41-20241122003530:
+  version "0.14.0-snapshot-bf06e41-20241122003530"
+  resolved "https://registry.yarnpkg.com/rolldown/-/rolldown-0.14.0-snapshot-bf06e41-20241122003530.tgz#44854213701269fe34109551e73245f961f1f9c6"
+  integrity sha512-nc9gWoV7p7hSViZnzf4hbnMNtGaBDLK2jFiLXmmSVPfK0m4TgG/YdVUicA5pPCxMxqbbNz5G0tDzilB5aYSY4g==
   dependencies:
     zod "^3.23.8"
   optionalDependencies:
-    "@rolldown/binding-darwin-arm64" "0.14.0"
-    "@rolldown/binding-darwin-x64" "0.14.0"
-    "@rolldown/binding-freebsd-x64" "0.14.0"
-    "@rolldown/binding-linux-arm-gnueabihf" "0.14.0"
-    "@rolldown/binding-linux-arm64-gnu" "0.14.0"
-    "@rolldown/binding-linux-arm64-musl" "0.14.0"
-    "@rolldown/binding-linux-x64-gnu" "0.14.0"
-    "@rolldown/binding-linux-x64-musl" "0.14.0"
-    "@rolldown/binding-wasm32-wasi" "0.14.0"
-    "@rolldown/binding-win32-arm64-msvc" "0.14.0"
-    "@rolldown/binding-win32-ia32-msvc" "0.14.0"
-    "@rolldown/binding-win32-x64-msvc" "0.14.0"
+    "@rolldown/binding-darwin-arm64" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-darwin-x64" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-freebsd-x64" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-linux-arm-gnueabihf" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-linux-arm64-gnu" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-linux-arm64-musl" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-linux-x64-gnu" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-linux-x64-musl" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-wasm32-wasi" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-win32-arm64-msvc" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-win32-ia32-msvc" "0.14.0-snapshot-bf06e41-20241122003530"
+    "@rolldown/binding-win32-x64-msvc" "0.14.0-snapshot-bf06e41-20241122003530"
 
 rollup@4.25.0:
   version "4.25.0"

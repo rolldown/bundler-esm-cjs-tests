@@ -12,6 +12,13 @@ Each test has a "direct" version and an "indirect" version. The indirect version
 
 All tests have been run through the JS bundlers Webpack, Rollup, Parcel, and esbuild. Tests have additionally been run through node for comparison, although please keep in mind that node is not a JS bundler and shouldn't be expected to implement bundler-specific features such as `require()` of ESM code.
 
+# Usage
+
+```
+yarn
+node ./tests.js
+```
+
 ## Results
 
 <table>
@@ -27,7 +34,7 @@ All tests have been run through the JS bundlers Webpack, Rollup, Parcel, and esb
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
 <td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>✅<br><br>node<br>✅</td>
-<td>webpack<br>✅<br><br>webpack<br>🚫</td>
+<td>webpack<br>🚫<br><br>webpack<br>🚫</td>
 <td>parcel<br>✅<br><br>parcel<br>✅</td>
 <td>rollup<br>🚫<br><br>rollup<br>🚫</td>
 </tr>
@@ -109,7 +116,7 @@ foo.js:
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
 <td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>✅<br><br>node<br>✅</td>
-<td>webpack<br>✅<br><br>webpack<br>🚫</td>
+<td>webpack<br>🚫<br><br>webpack<br>🚫</td>
 <td>parcel<br>🚫<br><br>parcel<br>🚫</td>
 <td>rollup<br>✅<br><br>rollup<br>✅</td>
 </tr>
@@ -175,7 +182,7 @@ foo.js:
   exports.foo = 123
 </pre></td>
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
-<td>rolldown<br>🚫<br><br>rolldown<br>🚫</td>
+<td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>✅<br><br>node<br>✅</td>
 <td>webpack<br>✅<br><br>webpack<br>✅</td>
 <td>parcel<br>✅<br><br>parcel<br>✅</td>
@@ -192,7 +199,7 @@ foo.js:
   export {}
 </pre></td>
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
-<td>rolldown<br>🚫<br><br>rolldown<br>🚫</td>
+<td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>🚫<br><br>node<br>🚫</td>
 <td>webpack<br>✅<br><br>webpack<br>✅</td>
 <td>parcel<br>✅<br><br>parcel<br>✅</td>
@@ -209,7 +216,7 @@ foo.js:
   export default 123
 </pre></td>
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
-<td>rolldown<br>🚫<br><br>rolldown<br>🚫</td>
+<td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>🚫<br><br>node<br>🚫</td>
 <td>webpack<br>✅<br><br>webpack<br>✅</td>
 <td>parcel<br>✅<br><br>parcel<br>✅</td>
@@ -543,7 +550,7 @@ package.json:
   { "type": "module" }
 </pre></td>
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
-<td>rolldown<br>🚫<br><br>rolldown<br>🚫</td>
+<td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>✅<br><br>node<br>✅</td>
 <td>webpack<br>✅<br><br>webpack<br>✅</td>
 <td>parcel<br>🚫<br><br>parcel<br>🚫</td>
@@ -564,7 +571,7 @@ foo.js:
     { default: { bar: 123 }, __esModule: true }
 </pre></td>
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
-<td>rolldown<br>🚫<br><br>rolldown<br>🚫</td>
+<td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>✅<br><br>node<br>✅</td>
 <td>webpack<br>✅<br><br>webpack<br>✅</td>
 <td>parcel<br>🚫<br><br>parcel<br>🚫</td>
@@ -585,7 +592,7 @@ foo.js:
     { default: { bar: 123 }, __esModule: true }
 </pre></td>
 <td>esbuild<br>✅<br><br>esbuild<br>✅</td>
-<td>rolldown<br>🚫<br><br>rolldown<br>🚫</td>
+<td>rolldown<br>✅<br><br>rolldown<br>✅</td>
 <td>node<br>✅<br><br>node<br>✅</td>
 <td>webpack<br>🚫<br><br>webpack<br>🚫</td>
 <td>parcel<br>🚫<br><br>parcel<br>🚫</td>
@@ -693,9 +700,9 @@ foo.js:
 </tr>
 <tr><td>Percent handled:</td>
 <td>100.0%</td>
-<td>81.3%</td>
+<td>100.0%</td>
 <td>78.1%</td>
-<td>71.9%</td>
+<td>68.8%</td>
 <td>53.1%</td>
 <td>48.4%</td>
 </tr>
@@ -705,9 +712,9 @@ foo.js:
 
 <pre>
 esbuild:  ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅
-rolldown: ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅
+rolldown: ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅
 node:     ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 ✅✅ 🚫🚫 🚫🚫 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅
-webpack:  ✅🚫 🚫🚫 ✅🚫 🚫🚫 ✅🚫 ✅🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅
+webpack:  🚫🚫 🚫🚫 ✅🚫 🚫🚫 🚫🚫 ✅🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅
 parcel:   ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 ✅✅ 🚫🚫 🚫🚫 🚫🚫 🚫🚫 ✅✅ 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅
 rollup:   🚫🚫 🚫🚫 ✅✅ 🚫✅ ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 🚫🚫 ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ ✅✅ 🚫🚫 ✅✅ ✅✅ 🚫🚫 ✅✅ ✅✅ ✅✅ 🚫🚫 🚫🚫 🚫🚫 🚫🚫 🚫🚫 🚫🚫 🚫🚫 🚫🚫 ✅✅
 </pre>
